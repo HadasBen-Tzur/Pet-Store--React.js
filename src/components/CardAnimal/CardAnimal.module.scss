@@ -1,0 +1,38 @@
+.CardAnimal {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.CardPet {
+  background-color: #f9fae5;
+  border-radius: 30px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+.imgCardPet {
+  width: 230px;
+  height: 180px;
+  border-radius: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.textCardPet {
+  font-family: "Lemon";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  //line-height: 2rem;
+  color: #012761;
+  font-feature-settings: "cv07" on;
+  font-size: 20px;
+  align-items: center;
+  flex: none;
+  flex-grow: 0;
+}
